@@ -1,0 +1,7 @@
+/* 게시글 15개째 생성 시부터 갑자기 가로스크롤바가 생기고 가로가 화면이 더 커짐 */
+/* overflow로 가로스크롤바 없애버림 */
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
